@@ -4,7 +4,7 @@ cmake-build-*/
 out/
 
 # Polyscope library (added as subdirectory)
-polyscope/
+# polyscope/
 
 # IDE files
 .vscode/
