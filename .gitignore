@@ -1,0 +1,48 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Polyscope library (added as subdirectory)
+polyscope/
+
+# IDE files
+.vscode/
+.idea/
+.cl/
+.claude/
+*.swp
+*.swo
+*~
+
+# Documentation files
+*.md
+
+# Utilities
+utilities/
+
+# Project resources
+project_resources/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.o
+!data/*.obj  # Don't ignore .obj files in data directory
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Project executables
+deformation_sim
